@@ -3,8 +3,6 @@ class Global {
 
   static Global g1=Global();
 
-  
-
   List<Map> quotesList=[
   {"quotes":"Fortune befriends the bold","author":"Emily Dickinson","category":"success"},
   {"quotes":"Success is survival","author":"Leonard Cohen","category":"success"},
@@ -18,6 +16,6 @@ class Global {
   {"quotes":"Doubt kills more dreams than failure ever will.","author":"Suzy Kassem","category":"success"},
   ];
 
-  List<QuotesModel> modelLis=[];
+  List<QuotesModel> modelList=[];
 
 }
